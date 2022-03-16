@@ -2,7 +2,7 @@
 // Jose Pablo Agüero Mora (2021126372) - Grupo 2
 // SubClase Rectangulo
 
-public class Rectangulo extends Figura{
+public class Rectangulo extends Figura implements Comparable<Rectangulo>{
     private double base;
     private double altura;
 
